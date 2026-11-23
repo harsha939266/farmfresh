@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Fresh Delivery | Direct from My Fields</title>
+    <style>
+        :root {
+            --farm-green: #2d6a4f;
+            --earth-brown: #403d39;
+            --fresh-white: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--fresh-white);
+            color: var(--earth-brown);
+        }
+
+        header {
+            background-color: var(--farm-green);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+        }
+
+        .harvest-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background: #d8f3dc;
+            color: #1b4332;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .order-btn {
+            display: block;
+            width: 100%;
+            background-color: #25d366; /* WhatsApp Green */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-top: 1rem;
+            transition: 0.3s;
+        }
+
+        .order-btn:hover {
+            background-color: #128c7e;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 2rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fresh From My Farm</h1>
+    <p>Harvested at Dawn • Delivered to Your Door</p>
+</header>
+
+<div class="container">
+    <div class="harvest-card">
+        <h2>🌿 This Week's Harvest Box</h2>
+        <p>A hand-picked selection of what's peaking in the fields right now. Perfect for a week of healthy meals.</p>
+        
+        <div class="product-grid">
+            <div class="tag">🍅 Tomatoes</div>
+            <div class="tag">🧅 Onions</div>
+            <div class="tag">🥬 Spinach</div>
+            <div class="tag">🌿 Coriander</div>
+            <div class="tag">🌽 Sweet Corn</div>
+            <div class="tag">🍋 Lemons</div>
+        </div>
+
+        <hr style="margin: 1.5rem 0; border: 0; border-top: 1px solid #eee;">
+        
+        <p><strong>Price:</strong> $20 / ₹[Price] per box</p>
+        <p><strong>Delivery:</strong> Every Saturday Morning</p>
+
+        <a href="https://wa.me/9392668495?text=Hi! I want to order a Fresh Harvest Box." class="order-btn">
+            Order via WhatsApp
+        </a>
+    </div>
+
+    <div style="text-align: center;">
+        <h3>Why order from me?</h3>
+        <p>📍 No middlemen | 🚜 Grown locally | 🧊 No cold storage</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 [FARMFRESH]. All rights reserved.</p>
+</div>
+
+</body>
+</html>
